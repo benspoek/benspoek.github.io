@@ -1,0 +1,29 @@
+---
+title: "Hobbies & Interests"
+---
+
+I am passionate about running, cycling, triathlon, and recently also HYROX. Endurance sport is a great balance to my academic work, and lessons from one often carry over into the other.
+
+I also really enjoy mountain and water sports. I am a certified trainer in multiple sports, because I love sharing my passion for sport with others.
+
+In my free time, I try to enjoy *la dolce vita*: making pizza with my pizza oven, pulling good espressos, and spending time with friends.
+
+## Gallery
+
+<div class="hobby-gallery">
+  <figure>
+    <img src="assets/hobbies/cycling-track.webp" alt="Cycling on a training track">
+  </figure>
+  <figure>
+    <img src="assets/hobbies/triathlon-run.webp" alt="Running during a triathlon">
+  </figure>
+  <figure>
+    <img src="assets/hobbies/kitesurfing.webp" alt="Kitesurfing in golden evening light">
+  </figure>
+  <figure>
+    <img src="assets/hobbies/mountain-climbing.webp" alt="Climbing in the mountains with a helmet and via ferrata set">
+  </figure>
+  <figure>
+    <img src="assets/hobbies/ski-touring.webp" alt="Ski touring in snowy mountains">
+  </figure>
+</div>

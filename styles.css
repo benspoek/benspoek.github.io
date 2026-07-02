@@ -1,0 +1,120 @@
+.hobby-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hobby-gallery figure {
+  margin: 0;
+}
+
+.hobby-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.hobby-gallery figcaption {
+  margin-top: 0.35rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.home-photo {
+  width: 100%;
+}
+
+.thesis-entry {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.thesis-entry h4 {
+  margin-top: 0;
+}
+
+.thesis-meta {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.75rem 0;
+}
+
+.thesis-description {
+  margin-top: 0.75rem;
+}
+
+.thesis-description summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.thesis-note {
+  margin-bottom: 0;
+  color: #555;
+}
+
+.research-entry,
+.publication-entry {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.research-entry h3,
+.publication-entry h3 {
+  margin-top: 0;
+}
+
+.publication-meta {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.75rem 0;
+}
+
+.publication-description {
+  margin-top: 0.75rem;
+}
+
+.publication-description summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.application-interests {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin: 1rem 0;
+}
+
+.application-interests figure {
+  margin: 0;
+}
+
+.application-interests > p {
+  margin: 0;
+}
+
+.application-interests img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.application-interests figcaption {
+  margin-top: 0.35rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  .application-interests {
+    grid-template-columns: 1fr;
+  }
+}

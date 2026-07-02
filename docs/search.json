@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Collaboration & Open Theses",
+    "section": "",
+    "text": "I currently do not have any open thesis topics advertised.\nHowever, for strong and motivated students, I can often arrange a suitable project. If you are interested in working with me, please have a look at my Research & Publications as well as my past and ongoing supervised theses, and propose what you would like to work on.\nYou can also find thesis openings at our lab on the EBC student theses page.\nFor concrete project ideas, thesis proposals, or collaboration inquiries, please contact me by email."
+  },
+  {
+    "objectID": "theses.html#expected-background",
+    "href": "theses.html#expected-background",
+    "title": "Collaboration & Open Theses",
+    "section": "Expected Background",
+    "text": "Expected Background\nUseful prior knowledge includes control theory, optimization, linear systems, numerical methods, thermodynamics, energy systems, and programming, preferably in Python."
+  },
+  {
+    "objectID": "theses.html#how-to-apply",
+    "href": "theses.html#how-to-apply",
+    "title": "Collaboration & Open Theses",
+    "section": "How to Apply",
+    "text": "How to Apply\nSend a short email including:\n\nWhich research direction you are interested in\nYour study program and semester\nRelevant courses\nPrior thesis/project experience\nA current transcript"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "My research is concerned with machine learning, prediction, control, and the intersections of these fields. My methodological focus is on data-driven and predictive control approaches for technical energy systems."
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research & Publications",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nModel predictive control\nData-enabled predictive control\nReinforcement learning controllers\nData-driven modeling and prediction\nDistributed control of energy systems"
+  },
+  {
+    "objectID": "research.html#methodological-directions",
+    "href": "research.html#methodological-directions",
+    "title": "Research & Publications",
+    "section": "Methodological Directions",
+    "text": "Methodological Directions\nOne direction I am currently highly interested in is prediction and control based on time series foundation models. I would like to understand how these models can be used not only for forecasting, but also as useful components in predictive control, and anomaly detection.\nAnother core interest is making complex nonlinear controllers available on inexpensive and resource-constrained hardware. Neural controllers and approximate MPC are promising tools for distilling computationally demanding controllers into fast policies.\nI am also interested in the overlap between MPC, model predictive path integral control, model-based reinforcement learning, and model-free reinforcement learning. These fields often address similar problems with different assumptions and computational trade-offs.\nFor distributed energy systems, I would like to investigate primal-dual schemes for efficient prosumer markets in low-temperature district heating networks. More broadly, I am interested in agentic distributed control: making complex control systems configurable from smaller interacting subunits, so that larger systems can be designed, adapted, and operated in a modular way."
+  },
+  {
+    "objectID": "research.html#application-areas",
+    "href": "research.html#application-areas",
+    "title": "Research & Publications",
+    "section": "Application Areas",
+    "text": "Application Areas\n\n\nMy application interests are energy-related. I am especially interested in:\n\nEnergy grids, especially low-temperature district heating networks\nHeating, cooling, and power generation systems\nHeat pumps, refrigeration cycles, and related supply machinery\nEnergy hubs and coupled heat and power supply systems\nIndustrial waste heat integration"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research & Publications",
+    "section": "Projects",
+    "text": "Projects\n\nPAALi\nProcess-optimized extraction of waste heat from the food industry into innovative 4th and 5th generation heating networks in two districts of the municipalities of Zapfendorf and Hagenow\nI am involved in the PAALi project, a publicly funded joint project that investigates how waste heat from the food industry can be integrated into the heat supply of rural districts. The project focuses on previously unused low-temperature waste heat at the BMi plant in Zapfendorf and the Kühne site in Hagenow, with the goal of supporting a regional heat transition.\nA central part of PAALi is the development of an intelligent transfer station for heat extraction. Model-based methods and simulation studies are used to represent thermal processes, develop control strategies, and evaluate operating and expansion scenarios for low-temperature heating networks. Pilot plants at both industrial sites provide operational data that connect the modeling and optimization work with practical implementation.\nMore details are available on the PAALi project page."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research & Publications",
+    "section": "Publications",
+    "text": "Publications\nI will keep my publication list active here.\n\nDistributed Nonlinear Model Predictive Control for Building Energy Systems: An ALADIN Implementation Study\n\n\nAuthors: Steffen Eser, Ben Spoek, Augustinus Schütz, Phillip Stoffel, Dirk Müller\n\n\nJournal: Energy and AI, Volume 21, 2025, Article 100536\n\n\nLink: ScienceDirect\n\n\n\n\nAbstract\n\n\nThe implementation of sophisticated control strategies for building energy systems is crucial for improving energy efficiency and occupant comfort. While nonlinear model predictive control offers promising benefits, its application to large-scale building systems remains challenging due to computational complexity and system coupling. This work presents a comprehensive study of nonlinear distributed model predictive control implementation for building energy systems, comparing Alternating Direction Method of Multipliers and Augmented Lagrangian Alternating Direction Inexact Newton algorithms alongside different modeling approaches.\n\n\nWe examine a multi-zone heating system with thermal storage and multiple producers, investigating both ordinary differential equation based and artificial neural network based modeling strategies. Through systematic parameter tuning using Bayesian optimization and closed-loop scaling analysis with up to 40 thermal zones, we demonstrate that ALADIN-based nonlinear distributed model predictive control can achieve performance comparable to centralized model predictive control, showing greater robustness to parameter variations than ADMM.\n\n\nOur results reveal that artificial neural network based models effectively mitigate distributed integration errors and significantly reduce computation time compared to ordinary differential equation based approaches. Detailed computational profiling identifies specific bottlenecks in different nonlinear distributed model predictive control components. These findings advance the practical implementation of nonlinear distributed model predictive control in building energy systems, offering concrete strategies for modeling choices, parameter tuning, and system architecture design."
+  },
+  {
+    "objectID": "research.html#own-theses-and-project-work",
+    "href": "research.html#own-theses-and-project-work",
+    "title": "Research & Publications",
+    "section": "Own Theses and Project Work",
+    "text": "Own Theses and Project Work\n\nMaster’s Thesis: An ALADIN-Based Approach for Data-Driven Distributed Model Predictive Control\n\n\nSupervisor: Steffen Esser\n\n\n\n\nSummary\n\n\nImproving building energy systems control offers a key to reducing greenhouse gas emissions while balancing energy efficiency and comfort. Model predictive control is a promising approach, particularly for managing complex building energy systems holistically. However, this entails challenging non-convex optimization problems with high computational requirements that scale with system size. Distributed MPC can mitigate this through parallel subproblem solving, but requires efficient algorithms. The Alternating Direction Method of Multipliers shows limited success due to sublinear convergence in non-convex scenarios, whereas the Augmented Lagrangian Alternating Direction Inexact Newton algorithm promises faster convergence but faces practical challenges in application and parameterization.\n\n\nThis thesis adopts two strategies to address these challenges: a data-driven approach using artificial neural networks for rapid, comprehensive system analysis, and an automated parameterization technique to improve performance. Tests on a building energy system show that the proposed MPC reduces operating costs by 15.7% compared with ADMM and outperforms the centralized solver IPOPT in computational efficiency for larger systems, without compromising control quality. Artificial neural network models further reduce computation times significantly, demonstrating the potential of ALADIN-based MPC for efficient and stable building energy systems control while maintaining comfort standards.\n\n\n\n\nBachelor’s Thesis: Development and Evaluation of Machine Learning Methods for Dynamic Defrost Control of Air-to-Water Heat Pumps Regarding Adaptability and Transferability\n\n\nSupervisor: Dr. Jonas Klingebiel\n\n\n\n\nSummary\n\n\nDuring the operation of air-to-water heat pumps, frost can form on the evaporator fins depending on ambient conditions, reducing heat transfer and lowering efficiency. The evaporator must therefore be defrosted regularly, but the energy used for defrosting is a loss that should be minimized. Commercial defrost controllers often initiate defrosting cyclically at fixed time intervals, even though frost growth depends strongly on ambient conditions and the heat pump’s operating mode. As a result, defrosting is often initiated at a suboptimal time.\n\n\nIn this thesis, machine learning methods are used to develop self-learning defrosting controllers that approximate the optimal time for defrost initiation and thereby increase efficiency. The work investigates the ability of these controllers to adapt to disturbances such as foliage on the evaporator housing and technical changes to the heat pump, such as modified evaporator geometries. Two reinforcement learning agents, PPO and DQN, are implemented with hyperparameter optimization and compared. The results show that self-learning controls improve efficiency compared with time-based methods and that the reinforcement learning agents are capable of generalization, following reasonable defrosting strategies even under changing conditions.\n\n\n\n\nProject Work: Integration of Power-to-Gas Technologies in the Multi-Objective Operational Optimization of Energy Systems\n\n\nSupervisor: Yifan Wang\n\n\n\n\nSummary\n\n\nTo reduce CO2 emissions and reach climate targets, many nations are turning to electricity generation from renewable sources. Since solar radiation and wind cannot be controlled but should be used as much as possible, power peaks in the electricity grid can occur. The increasing share of renewable energies such as wind and solar power therefore calls for flexible balancing of the electricity grid. In addition, sectors such as aviation require indirect electrification.\n\n\nPower-to-gas is a promising future technology for both challenges. The start-up times of power-to-gas plants are very short, making them suitable for grid balancing, and the generated fuel gases can be used as climate-neutral fuels if the required electricity comes from renewable sources. In this project work, the components electrolyzer, direct air capture carbon separator, and methanizer were modeled and incorporated into the simulation model of a power system with a dynamic load profile and variable electricity prices.\n\n\nThe suitability of power-to-gas plants for grid balancing was demonstrated. The work also showed that downtime of power-to-gas plants decreases significantly with an increasing share of renewable energies in the power grid, suggesting that prices for fuel gases generated in this way may decline in the future as renewable shares continue to rise."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hi, I am Ben. This is my research-related homepage. You can find information on the following topics:\n\nResearch & Publications\nCollaboration & Open Theses\nCV\nTeaching\nHobbies & Interests\n\nPlease feel free to reach out any time under Contact."
+  },
+  {
+    "objectID": "hobbies.html",
+    "href": "hobbies.html",
+    "title": "Hobbies & Interests",
+    "section": "",
+    "text": "I am passionate about running, cycling, triathlon, and recently also HYROX. Endurance sport is a great balance to my academic work, and lessons from one often carry over into the other.\nI also really enjoy mountain and water sports. I am a certified trainer in multiple sports, because I love sharing my passion for sport with others.\nIn my free time, I try to enjoy la dolce vita: making pizza with my pizza oven, pulling good espressos, and spending time with friends."
+  },
+  {
+    "objectID": "hobbies.html#gallery",
+    "href": "hobbies.html#gallery",
+    "title": "Hobbies & Interests",
+    "section": "Gallery",
+    "text": "Gallery"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Ben Spoek, M.Sc.\nResearch Assistant"
+  },
+  {
+    "objectID": "contact.html#affiliation",
+    "href": "contact.html#affiliation",
+    "title": "Contact",
+    "section": "Affiliation",
+    "text": "Affiliation\nRWTH Aachen University\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center"
+  },
+  {
+    "objectID": "contact.html#office",
+    "href": "contact.html#office",
+    "title": "Contact",
+    "section": "Office",
+    "text": "Office\nBuilding: 4120\nRoom: 20.04\nMathieustr. 10\n52074 Aachen\nGermany"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "Email",
+    "text": "Email\nEmail: ben.spoek@eonerc.rwth-aachen.de\nFurther institutional contact information is available on my RWTH/EBC profile."
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\nRWTH/EBC profile\nORCID\nScopus\nLinkedIn"
+  },
+  {
+    "objectID": "contact.html#legal",
+    "href": "contact.html#legal",
+    "title": "Contact",
+    "section": "Legal",
+    "text": "Legal\n\nImpressum\nPrivacy Notice"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Ben Spoek, M.Sc."
+  },
+  {
+    "objectID": "cv.html#positions",
+    "href": "cv.html#positions",
+    "title": "CV",
+    "section": "Positions",
+    "text": "Positions\n\nSince April 2025: Research Associate, Urban Energy Systems team, E.ON Energy Research Center, RWTH Aachen University\nJune 2024 - March 2025: Research Associate, ETH Zurich\nFebruary 2024 - May 2024: Student Research Assistant, Chair of Energy Efficient Buildings and Indoor Climate, RWTH Aachen University\nOctober 2021 - December 2021: Research & Development Intern, Siemens Energy, Mülheim an der Ruhr\nJuly 2021 - September 2021: Student Research Assistant, Chair of Thermodynamics of Mobile Energy Conversion Systems, RWTH Aachen University"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nOctober 2022 - February 2024: M.Sc. Energy Engineering, RWTH Aachen University, completed with distinction\nJuly 2022 - December 2022: Semester abroad, NTNU Trondheim\nFebruary 2021 - July 2021: Semester abroad, Politecnico di Milano\nOctober 2018 - July 2022: B.Sc. Mechanical Engineering with specialization in Energy Engineering, RWTH Aachen University, completed with distinction"
+  },
+  {
+    "objectID": "cv.html#thesis-work",
+    "href": "cv.html#thesis-work",
+    "title": "CV",
+    "section": "Thesis Work",
+    "text": "Thesis Work\n\nMaster’s thesis: Distributed data-driven model predictive control of building energy systems\nBachelor’s thesis: Reinforcement learning for heat pump defrosting"
+  },
+  {
+    "objectID": "cv.html#academic-activities-and-recognition",
+    "href": "cv.html#academic-activities-and-recognition",
+    "title": "CV",
+    "section": "Academic Activities and Recognition",
+    "text": "Academic Activities and Recognition\n\nScholarship holder of the German Academic Scholarship Foundation\nListed on the Dean’s List in every academic year\nMember of Ecurie Aix, the Formula Student team at RWTH Aachen University"
+  },
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Ben Spoek, M.Sc.\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center\nRWTH Aachen University\nMathieustr. 10\n52074 Aachen\nGermany\nBuilding: 4120\nRoom: 20.04"
+  },
+  {
+    "objectID": "impressum.html#information-according-to-section-5-ddg",
+    "href": "impressum.html#information-according-to-section-5-ddg",
+    "title": "Impressum",
+    "section": "",
+    "text": "Ben Spoek, M.Sc.\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center\nRWTH Aachen University\nMathieustr. 10\n52074 Aachen\nGermany\nBuilding: 4120\nRoom: 20.04"
+  },
+  {
+    "objectID": "impressum.html#contact",
+    "href": "impressum.html#contact",
+    "title": "Impressum",
+    "section": "Contact",
+    "text": "Contact\nEmail: ben.spoek@eonerc.rwth-aachen.de\nFurther institutional contact information is available on my RWTH/EBC profile."
+  },
+  {
+    "objectID": "impressum.html#responsible-for-content",
+    "href": "impressum.html#responsible-for-content",
+    "title": "Impressum",
+    "section": "Responsible for Content",
+    "text": "Responsible for Content\nBen Spoek, M.Sc.\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center\nRWTH Aachen University\nMathieustr. 10\n52074 Aachen\nGermany"
+  },
+  {
+    "objectID": "impressum.html#notes",
+    "href": "impressum.html#notes",
+    "title": "Impressum",
+    "section": "Notes",
+    "text": "Notes\nThis is a personal academic website. Unless explicitly stated otherwise, the content reflects the views and academic activities of Ben Spoek."
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy Notice",
+    "section": "",
+    "text": "Ben Spoek, M.Sc.\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center\nRWTH Aachen University\nMathieustr. 10\n52074 Aachen\nGermany\nEmail: ben.spoek@eonerc.rwth-aachen.de"
+  },
+  {
+    "objectID": "privacy.html#controller",
+    "href": "privacy.html#controller",
+    "title": "Privacy Notice",
+    "section": "",
+    "text": "Ben Spoek, M.Sc.\nChair of Energy Efficient Buildings and Indoor Climate\nE.ON Energy Research Center\nRWTH Aachen University\nMathieustr. 10\n52074 Aachen\nGermany\nEmail: ben.spoek@eonerc.rwth-aachen.de"
+  },
+  {
+    "objectID": "privacy.html#hosting",
+    "href": "privacy.html#hosting",
+    "title": "Privacy Notice",
+    "section": "Hosting",
+    "text": "Hosting\nThis website is hosted with GitHub Pages. When you visit the website, GitHub may process technical access data such as your IP address, request time, requested files, browser information, and referrer information in server logs. This processing is necessary to deliver the website and to maintain the security and reliability of the hosting service.\nMore information is available in the GitHub Privacy Statement."
+  },
+  {
+    "objectID": "privacy.html#no-analytics-or-tracking",
+    "href": "privacy.html#no-analytics-or-tracking",
+    "title": "Privacy Notice",
+    "section": "No Analytics or Tracking",
+    "text": "No Analytics or Tracking\nThis website does not use analytics tools, tracking cookies, contact forms, comments, newsletters, or embedded social media widgets."
+  },
+  {
+    "objectID": "privacy.html#email-contact",
+    "href": "privacy.html#email-contact",
+    "title": "Privacy Notice",
+    "section": "Email Contact",
+    "text": "Email Contact\nIf you contact me by email, I process the information you provide in order to answer your request. The data are not used for automated decision-making and are not passed on unless this is necessary to handle your request or required by law."
+  },
+  {
+    "objectID": "privacy.html#your-rights",
+    "href": "privacy.html#your-rights",
+    "title": "Privacy Notice",
+    "section": "Your Rights",
+    "text": "Your Rights\nSubject to the applicable legal requirements, you may have the right to request access, correction, deletion, restriction of processing, data portability, and objection to processing of your personal data."
+  },
+  {
+    "objectID": "privacy.html#last-updated",
+    "href": "privacy.html#last-updated",
+    "title": "Privacy Notice",
+    "section": "Last Updated",
+    "text": "Last Updated\nJuly 2026"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I support teaching in energy technology and control systems."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nCurrent: Basic Operations of Energy Technology, RWTH Aachen University: support for a course introducing basic energy engineering principles and methods for the analysis of technical energy systems.\nPast: Control Systems, ETH Zurich: teaching support with a focus on state-space control."
+  },
+  {
+    "objectID": "teaching.html#supervised-student-theses",
+    "href": "teaching.html#supervised-student-theses",
+    "title": "Teaching",
+    "section": "Supervised Student Theses",
+    "text": "Supervised Student Theses\nMy students are my team. I rely on them heavily for developing new ideas and for bringing new perspectives and inspiration into my work. For that reason, good supervision is very important to me.\nI also want to encourage a team spirit among my students. In addition to student activities organized at the institute, such as the summer BBQ, Christmas party, and Christmas market event, I have lunch with my students every two weeks. This gives everyone time to connect, get to know each other, and talk about topics beyond day-to-day work.\n\nOngoing\n\nApproximate Nonlinear MPC Using Data-Driven Models for Component Control of Heat Pumps\n\n\nStudent: Danil Khadarin\n\n\nStatus: Ongoing\n\n\nSupervisors: Florian Will, M.Sc.; Ben Spoek, M.Sc.\n\n\nAuditor: Prof. Dr.-Ing. Dirk Müller\n\n\n\n\nModel Predictive Control for Low Temperature Waste Heat Extraction from Food Industry\n\n\nStudent: Xiaoyu Li\n\n\nStatus: Ongoing\n\n\nSupervisors: Ben Spoek, M.Sc.\n\n\nAuditor: Prof. Dr.-Ing. Dirk Müller\n\n\n\n\n\nFinished\n\nStochastic Model Predictive Control for Consumer-Driven District Heating Networks\n\n\nStudent: Lara Koppel\n\n\nStatus: Finished\n\n\nSupervisors: Ben Spoek, M.Sc.; Dr. Sebastian Stemmler\n\n\nAuditor: Prof. Dr.-Ing. Dirk Müller\n\n\n\n\nDescription\n\n\nThe heating sector accounts for a large part of global energy consumption and remains heavily dependent on fossil fuels. To achieve climate neutrality, a transition toward modern district heating networks with reduced temperatures is required, as these networks enable the integration of distributed renewable energy and urban waste heat. Efficiently managing these systems is complex due to the dynamic interactions between distributed consumers and centralized producers. This complexity requires advanced control strategies such as model predictive control. Deploying these predictive architectures is challenging, as prolonged hydraulic transport delays lead to the accumulation of temporally correlated weather forecast errors.\n\n\nThis work proposes a demand-side stochastic model predictive control framework and evaluates it against a deterministic baseline. The study focuses on decentralized building control by abstracting the network interface into a constant transport delay, placing supply-side dispatch and detailed hydraulic network dynamics outside the scope. To handle uncertainty, the disturbance model integrates Ensemble Model Output Statistics with a first-order autoregressive error model. This generates calibrated probabilistic forecasts that capture the autocorrelation of prediction errors. An augmented state-space formulation propagates the forecast error variance via closed-form linear covariance equations. This enables probabilistic constraint adaptation, dynamically replacing static safety margins.\n\n\nClosed-loop control simulations across varying network transport delays, building types, and seasonal conditions indicate that the operational advantage over the certainty-equivalence deterministic baseline is governed by the variance of the state covariance matrix. This advantage is amplified by the extension of the hydraulic transport horizon, meteorological input volatility, and the speed of the building’s transient thermal response. Under amplifying conditions, relative energy savings of up to 43.7% are achieved compared to the deterministic benchmark at equivalent comfort constraint satisfaction. The results suggest that uncertainty-aware demand-side control is particularly beneficial for thermally sensitive buildings with limited passive thermal buffering.\n\n\n\n\nConsumer-Driven Decentralized Model Predictive Control for District Heating Applications\n\n\nStudent: Jaspar Paulus\n\n\nStatus: Finished\n\n\nSupervisors: Ben Spoek, M.Sc.\n\n\nAuditor: Prof. Dr.-Ing. Dirk Müller\n\n\n\n\nDescription\n\n\nDecarbonizing the building heat sector is a prerequisite for achieving the greenhouse gas reduction targets of the Paris Climate Agreement. District heating networks offer a promising pathway, enabling the large-scale integration of renewable and waste heat sources while leveraging economies of scale in heat generation. Realizing this potential requires control strategies that go beyond conventional rule-based control, which cannot fully exploit the thermal flexibility of the network and the connected buildings.\n\n\nModel predictive control (MPC) offers a principled framework for demand-oriented, efficiency-optimized district heating operation. Centralized approaches that jointly optimize the entire system are, however, computationally intractable for real-world systems due to the high dimensionality and nonlinear dynamics of the coupled network-consumer system. This thesis proposes and investigates a novel consumer-driven, decentralized two-level MPC architecture. Each consumer employs an individual MPC to schedule its own heat demand predictively while adhering to comfort constraints and cost considerations. The consolidated demand forecasts are coordinated by a single producer MPC, which determines the optimal thermal energy input trajectory at the energy hub to satisfy all consumer demands simultaneously, accounting for transport delays, thermal losses, and the thermal inertia of the distribution network.\n\n\nTo evaluate this concept, a complete simulation environment is developed from scratch in Python. It encompasses a white-box Plug Flow Pipe network model capturing transport delay and thermal losses; a data-driven autoregressive model with exogenous inputs pipe model serving as the producer MPC prediction model; a white-box thermal building model coupled with a consumer MPC; a producer MPC that translates the sum of consumer heat orders into an optimized supply temperature trajectory; and a classical proportional-integral controlled reference system for comparison. The proposed system is evaluated on a simplified two-district network, each district comprising four thermal zones, which collectively equate to approximately thirty single-family houses, over two representative one-week simulation periods in winter and spring, each investigated under dual and single night-setback configurations.\n\n\nWithin the scope of this study, the results demonstrate various advantages of the consumer-driven MPC over the proportional-integral reference. Accumulated thermal comfort violations are reduced by approximately 73% in spring and 81% in winter. Network heat losses decrease by 5% to 8% in spring and by 16% to 17% in winter, reducing the total energy input at the energy hub by 1.3% to 2.3% in spring and 2.7% to 2.9% in winter, respectively.\n\n\n\n\nOff-Design Operation of Heat Pumps in Energy Hubs: Analysis of the Interactions Between Heat Pump Design and System Design\n\n\nStudent: Peter Nölke\n\n\nStatus: Finished\n\n\nSupervisors: Sebastian Ostlender, M.Sc.; Ben Spoek, M.Sc.\n\n\nAuditor: Prof. Dr.-Ing. Dirk Müller\n\n\n\n\nDescription\n\n\nIn order to reduce greenhouse gas emissions in central heating supply, fossil fuels must be replaced by renewable energy sources. One way of doing this is to integrate electrically powered heat pumps into energy hubs. The operating behavior of heat pumps is heavily dependent on the operating point, which is referred to as off-design behavior. In off-design operation, both the efficiency and the available condenser power vary. The effects of this off-design behavior on the operation of energy hubs have not yet been comprehensively analyzed.\n\n\nIn this thesis, a dynamic simulation model of an energy hub with 1.3 MW total thermal capacity is developed based on validated sub-models. This enables a holistic view of the effects of off-design behavior on the energy hub. The model includes a heat pump as the primary energy generator and a combined heat and power plant as the secondary energy generator. The off-design behavior of the heat pump is mapped using a detailed map model that describes the condenser power and the efficiency of the heat pump as a function of the operating point and design parameters. The design parameters of the heat pump are the design point, the refrigerant, and the flowsheet. For comparison, a simplified model is used that maps the operating behavior using the Carnot efficiency and does not take any design parameters into account. Both approaches are analyzed in annual simulations with varying design capacities of the heat pump and combined heat and power unit. The simulation results are evaluated using the seasonal performance factor of the heat pump, the overall efficiency of the energy hub, and the proportion of renewable thermal energy.\n\n\nThe results show that both the seasonal performance factor and the overall efficiency depend on the power output of the heat pump. The magnitude of this influence depends on the combination of design parameters. Depending on the design capacity of the heat pump, combinations with different emphases should be selected. For small heat pump design capacity, the focus is on a large peak power of the condenser in order to achieve a high share of renewable thermal energy. For large heat pump design capacity, the seasonal performance factor becomes more important, as it contributes significantly to optimizing the overall efficiency of the energy hub.\n\n\nThis work demonstrates that knowledge of the detailed off-design behavior of the heat pump is relevant for system design. In order to realize potential energy savings, the design parameters of the heat pump must be taken into account in the design.\n\n\n\n\nSubspace Identification Methods in Anomaly Detection of Buildings\n\n\nStudent: Dana Meier\n\n\nStatus: Finished\n\n\nSupervisors: Dr. Efe Balta; Ben Spoek, M.Sc.; Dr. Volkher Scholz; Remo Pfister\n\n\nAuditor: Prof. Dr. John Lygeros\n\n\n\nDetails under NDA."
+  }
+]

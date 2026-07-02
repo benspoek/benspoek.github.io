@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+
+website:
+  title: "Ben Spoek"
+  site-url: "https://benspoek.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research & Publications
+      - href: theses.qmd
+        text: Collaboration & Open Theses
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+      - href: hobbies.qmd
+        text: Hobbies & Interests
+      - href: contact.qmd
+        text: Contact
+    right:
+      - href: impressum.qmd
+        text: Impressum
+      - href: privacy.qmd
+        text: Privacy
+  page-footer:
+    left: "© Ben Spoek"
+    right:
+      - href: contact.qmd
+        text: Contact
+      - href: impressum.qmd
+        text: Impressum
+      - href: privacy.qmd
+        text: Privacy
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    filters:
+      - strip-comments.lua

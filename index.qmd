@@ -1,0 +1,15 @@
+---
+title: "Home"
+---
+
+<img src="assets/ben-spoek-home.webp" alt="Ben Spoek cycling in the mountains" class="home-photo">
+
+Hi, I am Ben. This is my research-related homepage. You can find information on the following topics:
+
+- [Research & Publications](research.qmd)
+- [Collaboration & Open Theses](theses.qmd)
+- [CV](cv.qmd)
+- [Teaching](teaching.qmd)
+- [Hobbies & Interests](hobbies.qmd)
+
+Please feel free to reach out any time under [Contact](contact.qmd).

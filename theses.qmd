@@ -1,0 +1,25 @@
+---
+title: "Collaboration & Open Theses"
+---
+
+I currently do not have any open thesis topics advertised.
+
+However, for strong and motivated students, I can often arrange a suitable project. If you are interested in working with me, please have a look at my [Research & Publications](research.qmd) as well as my [past and ongoing supervised theses](teaching.qmd#supervised-student-theses), and propose what you would like to work on.
+
+You can also find thesis openings at our lab on the [EBC student theses page](https://www.ebc.eonerc.rwth-aachen.de/cms/e-on-erc-ebc/studium/Studien-und-Abschlussarbeiten/~dnaq/Studien-und-Abschlussarbeiten/lidx/1/).
+
+For concrete project ideas, thesis proposals, or collaboration inquiries, please contact me by email.
+
+## Expected Background
+
+Useful prior knowledge includes control theory, optimization, linear systems, numerical methods, thermodynamics, energy systems, and programming, preferably in Python.
+
+## How to Apply
+
+Send a short email including:
+
+- Which research direction you are interested in
+- Your study program and semester
+- Relevant courses
+- Prior thesis/project experience
+- A current transcript

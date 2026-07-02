@@ -1,0 +1,142 @@
+---
+title: "Teaching"
+---
+
+I support teaching in energy technology and control systems.
+
+## Courses
+
+- Current: [Basic Operations of Energy Technology](https://www.ebc.eonerc.rwth-aachen.de/go/id/duxy/lidx/1), RWTH Aachen University: support for a course introducing basic energy engineering principles and methods for the analysis of technical energy systems.
+- Past: [Control Systems](https://people.ee.ethz.ch/~floriand/CSI.html), ETH Zurich: teaching support with a focus on state-space control.
+
+## Supervised Student Theses
+
+My students are my team. I rely on them heavily for developing new ideas and for bringing new perspectives and inspiration into my work. For that reason, good supervision is very important to me.
+
+I also want to encourage a team spirit among my students. In addition to student activities organized at the institute, such as the summer BBQ, Christmas party, and Christmas market event, I have lunch with my students every two weeks. This gives everyone time to connect, get to know each other, and talk about topics beyond day-to-day work.
+
+### Ongoing
+
+::: {.thesis-entry}
+#### Approximate Nonlinear MPC Using Data-Driven Models for Component Control of Heat Pumps
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Danil Khadarin</div>
+  <div><strong>Status:</strong> Ongoing</div>
+  <div><strong>Supervisors:</strong> Florian Will, M.Sc.; Ben Spoek, M.Sc.</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+
+<!--
+<details class="thesis-description">
+<summary>Description</summary>
+
+<p>According to the European Commission, heating in the building sector accounts for around 30% of total energy consumption in the EU. By using ambient heat, heat pumps can cover this heat demand electrically and efficiently. Their efficiency, expressed by the coefficient of performance, as well as their lifetime and maximum heating capacity, are strongly determined by the operating strategy of the refrigeration cycle.</p>
+
+<p>Two central control variables are superheat and supply temperature. Superheat describes the difference between the refrigerant temperature at the evaporator outlet and its evaporation temperature. It is critical for both safety and efficiency: values that are too low can cause liquid slugging and compressor damage, while values that are too high reduce the coefficient of performance. The supply temperature determines the heat delivered to the building and must satisfy the requested heat demand. Conventional controllers meet these requirements only to a limited extent: they operate with conservative setpoints and therefore leave efficiency potential unused. In addition, superheat and supply temperature are strongly coupled, so control actions affecting one variable directly influence the other. Conventional controllers treat both variables separately and cannot systematically account for these interactions.</p>
+
+<p>Nonlinear model predictive control (NMPC), by contrast, captures both control variables jointly in one optimization problem. It can optimize setpoints predictively while respecting operating constraints and thereby reduce the superheat setpoint to improve efficiency. However, due to the fast system dynamics with control rates of up to 1 Hz, the computationally intensive NMPC is not real-time capable on the resource-constrained microcontrollers of a heat pump.</p>
+
+<p>Approximate MPC (AMPC) learns the control behavior of the NMPC using data-driven models and thereby becomes real-time capable on resource-constrained hardware. Since the learned controller only approximates the behavior of the NMPC, it can lead to oscillations, instabilities, and unforeseen control behavior in closed-loop operation with the heat pump. This is exacerbated by the fact that the real heat pump deviates from the underlying model due to manufacturing tolerances and aging.</p>
+
+<p>The objective of this thesis is to develop and implement a robust AMPC for component control of heat pumps. First, the state of the art in approximate and robust MPC is reviewed. Using the NMPC, training data are generated in closed-loop operation on a dynamic heat pump model. Based on these data, a suitable data-driven model is selected and trained to reproduce the control behavior of the NMPC while minimizing violations of operating limits. Since pure approximation does not guarantee reliable closed-loop behavior, the AMPC is subsequently robustified against the remaining deviations from the NMPC. In addition, the influence of uncertainties in the real system, such as manufacturing tolerances and aging, on control performance is investigated. Finally, the resulting controller is evaluated in simulation studies with respect to control performance and robustness against the considered uncertainties.</p>
+
+</details>
+-->
+:::
+
+::: {.thesis-entry}
+#### Model Predictive Control for Low Temperature Waste Heat Extraction from Food Industry
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Xiaoyu Li</div>
+  <div><strong>Status:</strong> Ongoing</div>
+  <div><strong>Supervisors:</strong> Ben Spoek, M.Sc.</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+:::
+
+### Finished
+
+::: {.thesis-entry}
+#### Stochastic Model Predictive Control for Consumer-Driven District Heating Networks
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Lara Koppel</div>
+  <div><strong>Status:</strong> Finished</div>
+  <div><strong>Supervisors:</strong> Ben Spoek, M.Sc.; Dr. Sebastian Stemmler</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+
+<details class="thesis-description">
+<summary>Description</summary>
+
+<p>The heating sector accounts for a large part of global energy consumption and remains heavily dependent on fossil fuels. To achieve climate neutrality, a transition toward modern district heating networks with reduced temperatures is required, as these networks enable the integration of distributed renewable energy and urban waste heat. Efficiently managing these systems is complex due to the dynamic interactions between distributed consumers and centralized producers. This complexity requires advanced control strategies such as model predictive control. Deploying these predictive architectures is challenging, as prolonged hydraulic transport delays lead to the accumulation of temporally correlated weather forecast errors.</p>
+
+<p>This work proposes a demand-side stochastic model predictive control framework and evaluates it against a deterministic baseline. The study focuses on decentralized building control by abstracting the network interface into a constant transport delay, placing supply-side dispatch and detailed hydraulic network dynamics outside the scope. To handle uncertainty, the disturbance model integrates Ensemble Model Output Statistics with a first-order autoregressive error model. This generates calibrated probabilistic forecasts that capture the autocorrelation of prediction errors. An augmented state-space formulation propagates the forecast error variance via closed-form linear covariance equations. This enables probabilistic constraint adaptation, dynamically replacing static safety margins.</p>
+
+<p>Closed-loop control simulations across varying network transport delays, building types, and seasonal conditions indicate that the operational advantage over the certainty-equivalence deterministic baseline is governed by the variance of the state covariance matrix. This advantage is amplified by the extension of the hydraulic transport horizon, meteorological input volatility, and the speed of the building's transient thermal response. Under amplifying conditions, relative energy savings of up to 43.7% are achieved compared to the deterministic benchmark at equivalent comfort constraint satisfaction. The results suggest that uncertainty-aware demand-side control is particularly beneficial for thermally sensitive buildings with limited passive thermal buffering.</p>
+
+</details>
+:::
+
+::: {.thesis-entry}
+#### Consumer-Driven Decentralized Model Predictive Control for District Heating Applications
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Jaspar Paulus</div>
+  <div><strong>Status:</strong> Finished</div>
+  <div><strong>Supervisors:</strong> Ben Spoek, M.Sc.</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+
+<details class="thesis-description">
+<summary>Description</summary>
+
+<p>Decarbonizing the building heat sector is a prerequisite for achieving the greenhouse gas reduction targets of the Paris Climate Agreement. District heating networks offer a promising pathway, enabling the large-scale integration of renewable and waste heat sources while leveraging economies of scale in heat generation. Realizing this potential requires control strategies that go beyond conventional rule-based control, which cannot fully exploit the thermal flexibility of the network and the connected buildings.</p>
+
+<p>Model predictive control (MPC) offers a principled framework for demand-oriented, efficiency-optimized district heating operation. Centralized approaches that jointly optimize the entire system are, however, computationally intractable for real-world systems due to the high dimensionality and nonlinear dynamics of the coupled network-consumer system. This thesis proposes and investigates a novel consumer-driven, decentralized two-level MPC architecture. Each consumer employs an individual MPC to schedule its own heat demand predictively while adhering to comfort constraints and cost considerations. The consolidated demand forecasts are coordinated by a single producer MPC, which determines the optimal thermal energy input trajectory at the energy hub to satisfy all consumer demands simultaneously, accounting for transport delays, thermal losses, and the thermal inertia of the distribution network.</p>
+
+<p>To evaluate this concept, a complete simulation environment is developed from scratch in Python. It encompasses a white-box Plug Flow Pipe network model capturing transport delay and thermal losses; a data-driven autoregressive model with exogenous inputs pipe model serving as the producer MPC prediction model; a white-box thermal building model coupled with a consumer MPC; a producer MPC that translates the sum of consumer heat orders into an optimized supply temperature trajectory; and a classical proportional-integral controlled reference system for comparison. The proposed system is evaluated on a simplified two-district network, each district comprising four thermal zones, which collectively equate to approximately thirty single-family houses, over two representative one-week simulation periods in winter and spring, each investigated under dual and single night-setback configurations.</p>
+
+<p>Within the scope of this study, the results demonstrate various advantages of the consumer-driven MPC over the proportional-integral reference. Accumulated thermal comfort violations are reduced by approximately 73% in spring and 81% in winter. Network heat losses decrease by 5% to 8% in spring and by 16% to 17% in winter, reducing the total energy input at the energy hub by 1.3% to 2.3% in spring and 2.7% to 2.9% in winter, respectively.</p>
+
+</details>
+:::
+
+::: {.thesis-entry}
+#### Off-Design Operation of Heat Pumps in Energy Hubs: Analysis of the Interactions Between Heat Pump Design and System Design
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Peter Nölke</div>
+  <div><strong>Status:</strong> Finished</div>
+  <div><strong>Supervisors:</strong> Sebastian Ostlender, M.Sc.; Ben Spoek, M.Sc.</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+
+<details class="thesis-description">
+<summary>Description</summary>
+
+<p>In order to reduce greenhouse gas emissions in central heating supply, fossil fuels must be replaced by renewable energy sources. One way of doing this is to integrate electrically powered heat pumps into energy hubs. The operating behavior of heat pumps is heavily dependent on the operating point, which is referred to as off-design behavior. In off-design operation, both the efficiency and the available condenser power vary. The effects of this off-design behavior on the operation of energy hubs have not yet been comprehensively analyzed.</p>
+
+<p>In this thesis, a dynamic simulation model of an energy hub with 1.3 MW total thermal capacity is developed based on validated sub-models. This enables a holistic view of the effects of off-design behavior on the energy hub. The model includes a heat pump as the primary energy generator and a combined heat and power plant as the secondary energy generator. The off-design behavior of the heat pump is mapped using a detailed map model that describes the condenser power and the efficiency of the heat pump as a function of the operating point and design parameters. The design parameters of the heat pump are the design point, the refrigerant, and the flowsheet. For comparison, a simplified model is used that maps the operating behavior using the Carnot efficiency and does not take any design parameters into account. Both approaches are analyzed in annual simulations with varying design capacities of the heat pump and combined heat and power unit. The simulation results are evaluated using the seasonal performance factor of the heat pump, the overall efficiency of the energy hub, and the proportion of renewable thermal energy.</p>
+
+<p>The results show that both the seasonal performance factor and the overall efficiency depend on the power output of the heat pump. The magnitude of this influence depends on the combination of design parameters. Depending on the design capacity of the heat pump, combinations with different emphases should be selected. For small heat pump design capacity, the focus is on a large peak power of the condenser in order to achieve a high share of renewable thermal energy. For large heat pump design capacity, the seasonal performance factor becomes more important, as it contributes significantly to optimizing the overall efficiency of the energy hub.</p>
+
+<p>This work demonstrates that knowledge of the detailed off-design behavior of the heat pump is relevant for system design. In order to realize potential energy savings, the design parameters of the heat pump must be taken into account in the design.</p>
+
+</details>
+:::
+
+::: {.thesis-entry}
+#### Subspace Identification Methods in Anomaly Detection of Buildings
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Dana Meier</div>
+  <div><strong>Status:</strong> Finished</div>
+  <div><strong>Supervisors:</strong> Dr. Efe Balta; Ben Spoek, M.Sc.; Dr. Volkher Scholz; Remo Pfister</div>
+  <div><strong>Auditor:</strong> Prof. Dr. John Lygeros</div>
+</div>
+
+<p class="thesis-note">Details under NDA.</p>
+:::

@@ -1,0 +1,36 @@
+---
+title: "Impressum"
+---
+
+## Information According to Section 5 DDG
+
+Ben Spoek, M.Sc.  
+Chair of Energy Efficient Buildings and Indoor Climate  
+E.ON Energy Research Center  
+RWTH Aachen University  
+Mathieustr. 10  
+52074 Aachen  
+Germany
+
+Building: 4120  
+Room: 20.04
+
+## Contact
+
+Email: [ben.spoek@eonerc.rwth-aachen.de](mailto:ben.spoek@eonerc.rwth-aachen.de)
+
+Further institutional contact information is available on my [RWTH/EBC profile](https://www.ebc.eonerc.rwth-aachen.de/cms/e-on-erc-ebc/Das-Institut/Mitarbeiter/Team6/~bmupgv/Ben-Spoek/lidx/1/).
+
+## Responsible for Content
+
+Ben Spoek, M.Sc.  
+Chair of Energy Efficient Buildings and Indoor Climate  
+E.ON Energy Research Center  
+RWTH Aachen University  
+Mathieustr. 10  
+52074 Aachen  
+Germany
+
+## Notes
+
+This is a personal academic website. Unless explicitly stated otherwise, the content reflects the views and academic activities of Ben Spoek.

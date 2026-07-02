@@ -1,0 +1,31 @@
+---
+title: "CV"
+---
+
+Ben Spoek, M.Sc.
+
+## Positions
+
+- Since April 2025: Research Associate, Urban Energy Systems team, E.ON Energy Research Center, RWTH Aachen University
+- June 2024 - March 2025: Research Associate, ETH Zurich
+- February 2024 - May 2024: Student Research Assistant, Chair of Energy Efficient Buildings and Indoor Climate, RWTH Aachen University
+- October 2021 - December 2021: Research & Development Intern, Siemens Energy, Mülheim an der Ruhr
+- July 2021 - September 2021: Student Research Assistant, Chair of Thermodynamics of Mobile Energy Conversion Systems, RWTH Aachen University
+
+## Education
+
+- October 2022 - February 2024: M.Sc. Energy Engineering, RWTH Aachen University, completed with distinction
+- July 2022 - December 2022: Semester abroad, NTNU Trondheim
+- February 2021 - July 2021: Semester abroad, Politecnico di Milano
+- October 2018 - July 2022: B.Sc. Mechanical Engineering with specialization in Energy Engineering, RWTH Aachen University, completed with distinction
+
+## Thesis Work
+
+- Master's thesis: Distributed data-driven model predictive control of building energy systems
+- Bachelor's thesis: Reinforcement learning for heat pump defrosting
+
+## Academic Activities and Recognition
+
+- Scholarship holder of the German Academic Scholarship Foundation
+- Listed on the Dean's List in every academic year
+- Member of Ecurie Aix, the Formula Student team at RWTH Aachen University
