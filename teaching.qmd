@@ -27,22 +27,6 @@ I also want to encourage a team spirit among my students. In addition to student
   <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
 </div>
 
-<!--
-<details class="thesis-description">
-<summary>Description</summary>
-
-<p>According to the European Commission, heating in the building sector accounts for around 30% of total energy consumption in the EU. By using ambient heat, heat pumps can cover this heat demand electrically and efficiently. Their efficiency, expressed by the coefficient of performance, as well as their lifetime and maximum heating capacity, are strongly determined by the operating strategy of the refrigeration cycle.</p>
-
-<p>Two central control variables are superheat and supply temperature. Superheat describes the difference between the refrigerant temperature at the evaporator outlet and its evaporation temperature. It is critical for both safety and efficiency: values that are too low can cause liquid slugging and compressor damage, while values that are too high reduce the coefficient of performance. The supply temperature determines the heat delivered to the building and must satisfy the requested heat demand. Conventional controllers meet these requirements only to a limited extent: they operate with conservative setpoints and therefore leave efficiency potential unused. In addition, superheat and supply temperature are strongly coupled, so control actions affecting one variable directly influence the other. Conventional controllers treat both variables separately and cannot systematically account for these interactions.</p>
-
-<p>Nonlinear model predictive control (NMPC), by contrast, captures both control variables jointly in one optimization problem. It can optimize setpoints predictively while respecting operating constraints and thereby reduce the superheat setpoint to improve efficiency. However, due to the fast system dynamics with control rates of up to 1 Hz, the computationally intensive NMPC is not real-time capable on the resource-constrained microcontrollers of a heat pump.</p>
-
-<p>Approximate MPC (AMPC) learns the control behavior of the NMPC using data-driven models and thereby becomes real-time capable on resource-constrained hardware. Since the learned controller only approximates the behavior of the NMPC, it can lead to oscillations, instabilities, and unforeseen control behavior in closed-loop operation with the heat pump. This is exacerbated by the fact that the real heat pump deviates from the underlying model due to manufacturing tolerances and aging.</p>
-
-<p>The objective of this thesis is to develop and implement a robust AMPC for component control of heat pumps. First, the state of the art in approximate and robust MPC is reviewed. Using the NMPC, training data are generated in closed-loop operation on a dynamic heat pump model. Based on these data, a suitable data-driven model is selected and trained to reproduce the control behavior of the NMPC while minimizing violations of operating limits. Since pure approximation does not guarantee reliable closed-loop behavior, the AMPC is subsequently robustified against the remaining deviations from the NMPC. In addition, the influence of uncertainties in the real system, such as manufacturing tolerances and aging, on control performance is investigated. Finally, the resulting controller is evaluated in simulation studies with respect to control performance and robustness against the considered uncertainties.</p>
-
-</details>
--->
 :::
 
 ::: {.thesis-entry}
