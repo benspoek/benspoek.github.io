@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+toc: true
 ---
 
 I support teaching in energy technology and control systems.
@@ -34,6 +35,17 @@ I also want to encourage a team spirit among my students. In addition to student
 
 <div class="thesis-meta">
   <div><strong>Student:</strong> Xiaoyu Li</div>
+  <div><strong>Status:</strong> Ongoing</div>
+  <div><strong>Supervisors:</strong> Ben Spoek, M.Sc.</div>
+  <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>
+</div>
+:::
+
+::: {.thesis-entry}
+#### Time-Series Foundation Models in Predictive DHN Control
+
+<div class="thesis-meta">
+  <div><strong>Student:</strong> Simon Roß</div>
   <div><strong>Status:</strong> Ongoing</div>
   <div><strong>Supervisors:</strong> Ben Spoek, M.Sc.</div>
   <div><strong>Auditor:</strong> Prof. Dr.-Ing. Dirk Müller</div>

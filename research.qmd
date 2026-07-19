@@ -1,5 +1,6 @@
 ---
 title: "Research & Publications"
+toc: true
 ---
 
 My research is concerned with machine learning, prediction, control, and the intersections of these fields. My methodological focus is on data-driven and predictive control approaches for technical energy systems.

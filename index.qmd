@@ -1,15 +1,24 @@
 ---
 title: "Home"
+pagetitle: "Predictive Control and Energy Systems Research"
+body-classes: home-page
 ---
+
+<div class="home-intro">
+  <h1 class="home-greeting">Hi, I am Ben.</h1>
+  <p class="home-lead">This is my research-related homepage.</p>
+</div>
 
 <img src="assets/ben-spoek-home.webp" alt="Ben Spoek cycling in the mountains" class="home-photo">
 
-Hi, I am Ben. This is my research-related homepage. You can find information on the following topics:
+You can find information on the following topics:
 
+::: {.home-topics}
 - [Research & Publications](research.qmd)
 - [Collaboration & Open Theses](theses.qmd)
 - [CV](cv.qmd)
 - [Teaching](teaching.qmd)
 - [Hobbies & Interests](hobbies.qmd)
+:::
 
 Please feel free to reach out any time under [Contact](contact.qmd).
