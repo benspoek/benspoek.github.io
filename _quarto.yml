@@ -8,7 +8,10 @@ project:
 website:
   title: "Ben Spoek"
   site-url: "https://benspoek.github.io"
+  favicon: assets/favicon.svg
   navbar:
+    logo: assets/favicon.svg
+    logo-alt: "Ben Spoek"
     left:
       - href: index.qmd
         text: Home

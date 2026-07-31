@@ -3,6 +3,9 @@ title: "Home"
 pagetitle: "Predictive Control and Energy Systems Research"
 description-meta: "Ben Spoek is a Research Associate at RWTH Aachen University working on machine learning, prediction, and control for technical energy systems."
 body-classes: home-page
+format:
+  html:
+    include-in-header: _site-name.html
 ---
 
 <div class="home-intro">
