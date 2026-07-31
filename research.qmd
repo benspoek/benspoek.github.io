@@ -37,7 +37,9 @@ My application interests are energy-related. I am especially interested in:
 - Industrial waste heat integration
 :::
 
-![](assets/research/application-interests.webp){alt="Ben Spoek holding a manufactured component in a workshop"}
+<div data-nosnippet>
+  <img src="assets/research/application-interests.webp" alt="Ben Spoek holding a manufactured component in a workshop">
+</div>
 :::
 
 ## Projects

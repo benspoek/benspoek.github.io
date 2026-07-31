@@ -11,7 +11,9 @@ body-classes: home-page
   <p class="home-lead">My research focuses on machine learning, prediction, and control for technical energy systems, particularly data-driven and predictive control.</p>
 </div>
 
-<img src="assets/ben-spoek-home.webp" alt="Ben Spoek cycling in the mountains" class="home-photo">
+<div data-nosnippet>
+  <img src="assets/ben-spoek-home.webp" alt="Ben Spoek cycling in the mountains" class="home-photo">
+</div>
 
 You can find information on the following topics:
 

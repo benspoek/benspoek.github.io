@@ -11,7 +11,7 @@ Outside of work and sports, I enjoy making pizza in my pizza oven, preparing goo
 
 ## Gallery
 
-<div class="hobby-gallery">
+<div class="hobby-gallery" data-nosnippet>
   <figure>
     <img src="assets/hobbies/cycling-track.webp" alt="Cycling on a training track">
   </figure>
