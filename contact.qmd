@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description-meta: "Contact details and professional profiles of Ben Spoek at the E.ON Energy Research Center, RWTH Aachen University."
 ---
 
 Ben Spoek, M.Sc.  

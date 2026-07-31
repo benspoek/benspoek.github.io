@@ -1,5 +1,6 @@
 ---
 title: "Impressum"
+description-meta: "Legal notice and provider information for the personal academic website of Ben Spoek."
 ---
 
 ## Information According to Section 5 DDG

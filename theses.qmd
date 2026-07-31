@@ -1,5 +1,6 @@
 ---
 title: "Collaboration & Open Theses"
+description-meta: "Collaboration opportunities and information for students interested in thesis projects with Ben Spoek in predictive control and energy systems."
 ---
 
 I currently do not have any open thesis topics advertised.

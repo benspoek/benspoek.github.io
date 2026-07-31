@@ -1,5 +1,6 @@
 ---
 title: "Research & Publications"
+description-meta: "Research interests, projects, publications, and academic work by Ben Spoek in machine learning, predictive control, and technical energy systems."
 toc: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Hobbies & Interests"
+description-meta: "Personal interests of Ben Spoek, including endurance sports, cycling, triathlon, mountain and water sports, pizza, and espresso."
 ---
 
 I am passionate about running, cycling, triathlon, and recently also HYROX. Endurance sport is a great balance to my academic work, and lessons from one often carry over into the other.

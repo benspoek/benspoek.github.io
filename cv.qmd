@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description-meta: "Curriculum vitae of Ben Spoek, Research Associate at the E.ON Energy Research Center of RWTH Aachen University."
 ---
 
 Ben Spoek, M.Sc.

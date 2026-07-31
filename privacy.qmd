@@ -1,5 +1,6 @@
 ---
 title: "Privacy Notice"
+description-meta: "Privacy notice for the personal academic website of Ben Spoek hosted through GitHub Pages."
 ---
 
 ## Controller
@@ -35,4 +36,3 @@ Subject to the applicable legal requirements, you may have the right to request 
 ## Last Updated
 
 July 2026
-

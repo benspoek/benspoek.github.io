@@ -44,3 +44,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    canonical-url: true

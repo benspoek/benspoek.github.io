@@ -1,12 +1,14 @@
 ---
 title: "Home"
 pagetitle: "Predictive Control and Energy Systems Research"
+description-meta: "Ben Spoek is a Research Associate at RWTH Aachen University working on machine learning, prediction, and control for technical energy systems."
 body-classes: home-page
 ---
 
 <div class="home-intro">
-  <h1 class="home-greeting">Hi, I am Ben.</h1>
-  <p class="home-lead">This is my research-related homepage.</p>
+  <h1 class="home-greeting">Ben Spoek, M.Sc.</h1>
+  <p class="home-role">Research Associate at the Chair of Energy Efficient Buildings and Indoor Climate, E.ON Energy Research Center, RWTH Aachen University.</p>
+  <p class="home-lead">My research focuses on machine learning, prediction, and control for technical energy systems, particularly data-driven and predictive control.</p>
 </div>
 
 <img src="assets/ben-spoek-home.webp" alt="Ben Spoek cycling in the mountains" class="home-photo">

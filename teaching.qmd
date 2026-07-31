@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description-meta: "Teaching activities and supervised student theses of Ben Spoek in energy technology, control systems, and technical energy systems."
 toc: true
 ---
 
