@@ -61,6 +61,26 @@ More details are available on the [PAALi project page](https://www.ebc.eonerc.rw
 I will keep my publication list active here.
 
 ::: {.publication-entry}
+### Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks
+
+<div class="publication-meta">
+  <div><strong>Authors:</strong> Ben Spoek, Karim K. Ben Hicham, Kai Derzsi, Philipp Althaus, Alexander Mitsos, Dirk Müller</div>
+  <div><strong>Type:</strong> Preprint, 2026</div>
+  <div><strong>Identifier:</strong> arXiv:2608.20024 [cs.LG]</div>
+  <div><strong>Links:</strong> <a href="https://arxiv.org/abs/2608.20024">arXiv</a> · <a href="https://doi.org/10.48550/arXiv.2608.20024">DOI</a> · <a href="https://arxiv.org/pdf/2608.20024">PDF</a></div>
+</div>
+
+<details class="publication-description">
+<summary>Summary</summary>
+
+<p>This study evaluates TabPFN-TS for zero-shot probabilistic heat load forecasting in district heating networks and compares it with other time-series foundation models and trained machine-learning baselines. The analysis examines covariate selection, context length, temporal resolution, and forecast horizon before validating the selected setup over a full year and on a second heating network.</p>
+
+<p>The results identify hourly 24-hour forecasting with ambient temperature and a rolling 12-week context as a compact, high-performing configuration. TabPFN-TS achieves deterministic accuracy close to Chronos-2 while providing better empirical calibration. Based on diagnostic findings, the paper also proposes a multi-resolution residual-correction forecaster for improved longer-horizon planning.</p>
+
+</details>
+:::
+
+::: {.publication-entry}
 ### Distributed Nonlinear Model Predictive Control for Building Energy Systems: An ALADIN Implementation Study
 
 <div class="publication-meta">
