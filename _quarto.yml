@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: docs
   resources:
-    - paali-waerme
     - .nojekyll
     - googlef78df86376030063.html
 
